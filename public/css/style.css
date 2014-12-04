@@ -13661,3 +13661,23 @@ form .form-row .input-checkbox {
 .mobile-browser .spb_parallax_asset {
 	background-position: 50% 0!important;
 }
+
+/* Custom */
+
+
+#carousel-main .carousel-inner{
+    height:500px
+}
+
+.carousel-inner .item{
+    height:100%;
+}
+
+.item .container{
+    position: relative;
+}
+
+.item .container div{
+    position: absolute;
+    display: inline-block;
+}

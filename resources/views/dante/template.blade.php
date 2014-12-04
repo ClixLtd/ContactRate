@@ -187,8 +187,8 @@
         <div class="row">
             <div id="logo" class="logo-left clearfix">
                 <a href="http://dante.swiftideas.net">
-                    <img class="standard" src="images/Dante_logo.png" alt="Dante">
-                    <img class="retina" src="images/Dante_logo@2x.png" alt="Dante">
+                    <img class="standard" src="images/logo.png" alt="Dante">
+                    <img class="retina" src="images/logo@2x.png" alt="Dante">
                 </a>
                 <a href="#" class="visible-sm visible-xs mobile-menu-show"><i class="ss-rows"></i></a>
                 <a href="http://dante.swiftideas.net/cart/" class="visible-sm visible-xs mobile-cart-link"><i class="ss-cart"></i></a>
@@ -642,20 +642,22 @@
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="/js/jquery.js"><\/script>')</script>
         <script src="/js/jquery-migrate.min.js"></script>
+        <script src="/js/jquery.themepunch.tools.min.js"></script>
+        <script src="/js/jquery.themepunch.revolution.min.js"></script>
+        <script src="/js/bootstrap.min.js"></script>
         <script src="/js/jquery-ui-1.10.2.custom.min.js"></script>
         <script src="/js/jquery.flexslider-min.js"></script>
         <script src="/js/jquery.easing.js"></script>
         <script src="/js/jquery.carouFredSel.min.js"></script>
-        <script src="/js/jquery.elevateZoom.min.js"></script>
-        <script src="/js/jquery.fitvids.js"></script>
-        <script src="/js/jquery.infinitescroll.min.js"></script>
-        <script src="/js/jquery.isotope.min.js"></script>
-        <script src="/js/bootstrap.min.js"></script>
-        <script src="/js/imagesloaded.js"></script>
-        <script src="/js/functions.js"></script>
-        <script src="/js/respond.min.js"></script>
         <script src="/js/theme-scripts.js"></script>
         <script src="/js/view.min.js"></script>
+        <script src="/js/jquery.isotope.min.js"></script>
+        <script src="/js/imagesloaded.js"></script>
+        <script src="/js/jquery.infinitescroll.min.js"></script>
+        <script src="/js/functions.js"></script>
+        <script src="/js/respond.min.js"></script>
+        <script src="/js/jquery.elevateZoom.min.js"></script>
+        <script src="/js/jquery.fitvids.js"></script>
         <script src="/js/sf-admin.js"></script>
         <script src="/js/view.min.js"></script>
     </body>

@@ -2,11 +2,11 @@
 
 @section('content')
     <div class="home-slider-wrap">
-        @include('dante.partials.revolutionSlider')
+        @include('dante.partials.bootstrapCarousel')
     </div>
 
     <!-- #page-warp -->
-    <div id="page-warp">
+    <div id="page-wrap">
         <div class="inner-page-wrap has-no-sidebar no-bottom-spacing no-top-spacing clearfix">
             <div class="page-content clearfix">
                 <!--spacing-->
