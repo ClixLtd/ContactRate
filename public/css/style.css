@@ -13681,3 +13681,22 @@ form .form-row .input-checkbox {
     position: absolute;
     display: inline-block;
 }
+
+@media only screen and (min-width : 320px) {
+    #carousel-main{
+		display:none;
+	}    
+}
+
+@media only screen and (min-width : 768px)  {
+	#carousel-main{
+		display:none;
+	}
+}
+
+@media only screen and (min-width : 992px) {
+	#carousel-main{
+		display:block;
+	}
+}
+
