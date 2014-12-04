@@ -9,7 +9,7 @@ excludes:
     - vendor/
 
 composer:
-    mode: trigger
+    mode: always
     method: update
 
 post-deploy:
