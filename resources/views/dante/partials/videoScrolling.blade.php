@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container-fluid">
     <div class="row">
         <div class="spb_parallax_asset sf-parallax sf-parallax-video parallax-content-height spb_content_element bg-type-cover col-sm-12 bt0 bb0 mt0 mb0 no-shadow alt-bg none" style="background-image: url(http://dante.swiftideas.net/wp-content/uploads/2013/10/crafted_600_placeholder.jpg);">
             <div class="spb_content_wrapper" style="opacity: 1; top: 0px;">
