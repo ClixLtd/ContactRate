@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container-fluid">
     <div class="row">
         <div class="full-width-text spb_content_element alt-bg alt-ten col-sm-12 mt0 mb0 bt0 bb0 no-shadow spb_text_column">
             <div class="spb_wrapper clearfix">

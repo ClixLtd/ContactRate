@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container-fluid">
     <div class="row">
         <div class="spb_parallax_asset sf-parallax parallax-content-height parallax-fixed spb_content_element bg-type-cover col-sm-12 bt0 bb0 mt0 mb0 no-shadow alt-bg none" style="background-image: url(http://dante.swiftideas.net/wp-content/uploads/2013/03/parallax_bridge_blur.jpg);">
             <div class="spb_content_wrapper">

@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container-fluid">
     <div class="row">
         <div class="spb_testimonial_slider_widget spb_content_element alt-bg alt-four col-sm-12 bt0 bb0 mt0 testimonial">
             <div class="spb_wrapper slider-wrap">
