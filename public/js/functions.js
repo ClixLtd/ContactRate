@@ -2876,13 +2876,11 @@ jQuery('#carousel-main').carousel({}).on('slide.bs.carousel', function(e){
 
 jQuery(window).on('scroll', function(e){
     var scroll = jQuery(this).scrollTop();
-    console.log(scroll);
     if (scroll < 100){
         jQuery('#undefined-sticky-wrapper').removeClass('is-sticky sticky-header-resized').find('.sticky-header').removeAttr('style');
     } else if( scroll >= 100 && scroll < 200) {
         jQuery('#undefined-sticky-wrapper').addClass('is-sticky').find('.sticky-header').css({'position':'fixed','top':0});
     } else if(scroll >= 200) {
-        jQuery('#undefined-sticky-wrapper').find('.sticky-header').addClass('sticky-header-resized');
+        jQuery('#undefined-sticky-wrapper').addClass('is-sticky sticky-header-resized').find('.sticky-header').addClass('sticky-header-resized').css({'position':'fixed','top':0});
     }
-
 })
