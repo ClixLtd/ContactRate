@@ -146,39 +146,8 @@
                         <div class="th-right col-sm-6 clearfix">
                         <nav class="std-menu top-header-menu">
                         <ul class="menu">
-                        <li><a href="http://dante.swiftideas.net/my-account/">Login</a></li>
-                        <li class="parent aux-languages"><a href="#"><span class="language name">English</span></a>
-                        <ul id="header-languages" class="sub-menu">
-                        <li><a href="#">DEMO - EXAMPLE PURPOSES</a></li><li><a href="#"><span class="language name">German</span></a></li><li><div class="current-language"><span class="language name">English</span></div></li><li><a href="#"><span class="language name">Spanish</span></a></li><li><a href="#"><span class="language name">French</span></a></li>
+                            <li><a href="http://dante.swiftideas.net/my-account/">Login</a></li>
                         </ul>
-                        </li>
-
-
-                        			<li class="parent shopping-bag-item">
-                        								<a class="cart-contents" href="http://dante.swiftideas.net/cart/" title="View your shopping cart"><i class="ss-cart"></i><span class="amount">£0.00</span></a>
-                        								<ul class="sub-menu">
-                        					<li>
-                        						<div class="shopping-bag">
-
-
-                        								<div class="bag-header">0 items in the shopping bag</div>
-
-                        								<div class="bag-empty">Unfortunately, your shopping bag is empty.</div>
-
-                        								<div class="bag-buttons">
-
-
-                        									<a class="sf-button standard sf-icon-reveal checkout-button" href="http://dante.swiftideas.net/shop/"><i class="ss-cart"></i><span class="text">Go to the shop</span></a>
-
-                        								</div>
-
-
-                        							</div>
-                        						</li>
-                        					</ul>
-                        				</li>
-
-                        			<li class="parent wishlist-item"><a class="wishlist-link" href="http://dante.swiftideas.net/wishlist/" title="View your wishlist"><i class="ss-star"></i><span>0</span></a><ul class="sub-menu"><li><div class="wishlist-bag"><div class="bag-header">My wishlist on Dante</div><div class="bag-contents"><div class="wishlist-empty">Your wishlist is currently empty.</div></div><div class="bag-buttons"><a class="sf-button standard sf-icon-reveal wishlist-button" href="http://dante.swiftideas.net/wishlist/"><i class="ss-star"></i><span class="text">Go to your wishlist</span></a></div></div></li></ul></li></ul>
                         </nav>
                         </div> <!-- CLOSE .tb-right -->
                         </div> <!-- CLOSE .container -->
