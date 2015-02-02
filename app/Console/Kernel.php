@@ -1,6 +1,5 @@
 <?php namespace App\Console;
 
-use Exception;
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Foundation\Console\Kernel as ConsoleKernel;
 
@@ -12,7 +11,7 @@ class Kernel extends ConsoleKernel {
 	 * @var array
 	 */
 	protected $commands = [
-		'App\Console\Commands\InspireCommand',
+		'App\Console\Commands\Inspire',
 	];
 
 	/**
@@ -23,6 +22,8 @@ class Kernel extends ConsoleKernel {
 	 */
 	protected function schedule(Schedule $schedule)
 	{
+		$schedule->command('inspire')
+				 ->hourly();
 	}
 
 }
