@@ -144,329 +144,41 @@
                         <div class="th-left col-sm-6 clearfix">
                         Contact us on 0800 123 4567 or info@dante.com</div> <!-- CLOSE .tb-left -->
                         <div class="th-right col-sm-6 clearfix">
-                        <nav class="std-menu top-header-menu">
-                        <ul class="menu">
-                            <li><a href="http://dante.swiftideas.net/my-account/">Login</a></li>
-                        </ul>
-                        </nav>
+                            <nav class="std-menu top-header-menu">
+                                <ul class="menu">
+                                    <li><a href="http://dante.swiftideas.net/my-account/">Login</a></li>
+                                </ul>
+                            </nav>
                         </div> <!-- CLOSE .tb-right -->
                         </div> <!-- CLOSE .container -->
                         </div>
                         </div>
                         <div id="undefined-sticky-wrapper" class="sticky-wrapper" style="height: 83px;">
                             <div class="sticky-header">
-        <div class="container header-container">
-        <div class="row">
-            <div id="logo" class="logo-left clearfix">
-                <a href="http://dante.swiftideas.net">
-                    <img class="standard" src="images/logo.png" alt="Dante">
-                    <img class="retina" src="images/logo@2x.png" alt="Dante">
-                </a>
-                <a href="#" class="visible-sm visible-xs mobile-menu-show"><i class="ss-rows"></i></a>
-                <a href="http://dante.swiftideas.net/cart/" class="visible-sm visible-xs mobile-cart-link"><i class="ss-cart"></i></a>
-            </div>
-            <div class="header-right">
-                <nav class="search-nav std-menu">
-                    <ul class="menu">
-                        <li class="menu-search parent">
-                            <a href="#" class="header-search-link-alt"><i class="ss-search"></i></a>
-                            <div class="ajax-search-wrap">
-                                <div class="ajax-loading"></div>
-                                <form method="get" class="ajax-search-form" action="http://dante.swiftideas.net/">
-                                    <input type="text" placeholder="Search" name="s" autocomplete="off">
-                                </form>
-                                <div class="ajax-search-results"></div>
+                                <div class="container header-container">
+                                    <div class="row">
+                                        <div id="logo" class="logo-left clearfix">
+                                            <a href="{{ url('/') }}">
+                                                <img class="standard" src="images/logo-medium.png" alt="Contact Rate">
+                                                <img class="retina" src="images/logo-medium.png" alt="Contact Rate">
+                                            </a>
+                                            <a href="#" class="visible-sm visible-xs mobile-menu-show"><i class="ss-rows"></i></a>
+                                            <a href="http://dante.swiftideas.net/cart/" class="visible-sm visible-xs mobile-cart-link"><i class="ss-cart"></i></a>
+                                        </div>
+                                        <div class="header-right">
+                                            <nav id="main-navigation" class="mega-menu clearfix">
+                                                <div class="menu-main-menu-container">
+                                                    @include('dante.partials.navbar')
+                                                </div>
+                                            </nav>
+                                        </div>
+                                    </div> <!-- CLOSE .row -->
+                                </div> <!-- CLOSE .container -->
                             </div>
-                        </li>
-                    </ul>
-                </nav>
-                <nav id="main-navigation" class="mega-menu clearfix">
-                    <div class="menu-main-menu-container">
-                        <ul id="menu-main-menu-1" class="menu full-width">
-                            <li class="menu-item-10933 menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-7606 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children     parent"><a href="http://dante.swiftideas.net/" class="dc-mega">Home<span class="nav-line"></span><span class="dc-mega-icon"></span></a>
-        <div class="sub-container non-mega" style="left: 524.890625px; top: 63px; z-index: 1000;"><ul class="sub-menu sub">
-        	<li class="menu-item-10934 menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-7606 current_page_item"><a href="http://dante.swiftideas.net/">Home One: Landing</a></li>
-        	<li class="menu-item-10980 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://dante.swiftideas.net/home/home-two-eyegasm/">Home Two: Eyegasm</a></li>
-        	<li class="menu-item-10981 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://dante.swiftideas.net/home/home-three-agency/">Home Three: Agency</a></li>
-        	<li class="menu-item-11783 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://dante.swiftideas.net/home/home-four-corporate/">Home Four: Corporate</a></li>
-        	<li class="menu-item-10931 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://dante.swiftideas.net/home/home-five-one-page-wonder/">Home Five: One Page Wonder</a></li>
-        	<li class="menu-item-10932 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://dante.swiftideas.net/home/home-example-six/">Home Six: Classic</a></li>
-        	<li class="menu-item-10930 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://dante.swiftideas.net/home/home-seven-shop/">Home Seven: Shop</a></li>
-        	<li class="menu-item-10913 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://dante.swiftideas.net/home/home-eight-naked/">Home Eight: Naked</a></li>
-        </ul></div>
-        </li>
-        <li class="menu-item-10405 no-headings sf-mega-menu-5col menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children     dc-mega-li parent"><a href="/features" class="dc-mega">Features<span class="nav-line"></span><span class="dc-mega-icon"></span></a>
-        <div class="sub-container mega" style="width: 1170px; left: 0px; top: 63px; z-index: 1000;"><ul class="sub-menu sub" style="display: none;">
-        	<div class="row" style="width: 1140px;"><li class="menu-item-11774 menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children     mega-unit mega-hdr parent" style="height: 301px;"><a href="#" class="mega-hdr-a" style="height: 0px;">Features 1</a>
-        	<ul class="sub-menu">
-        		<li class="menu-item-11739 menu-item menu-item-type-custom menu-item-object-custom"><a href="/features/#everything2">100% Translatable</a></li>
-        		<li class="menu-item-11740 menu-item menu-item-type-custom menu-item-object-custom"><a href="/features/#everything2">Mega Menu</a></li>
-        		<li class="menu-item-11741 menu-item menu-item-type-custom menu-item-object-custom"><a href="/features/#everything2">Extensive Theme Options</a></li>
-        		<li class="menu-item-11742 menu-item menu-item-type-custom menu-item-object-custom"><a href="/features/#everything2">10 Blog Types</a></li>
-        		<li class="menu-item-11743 menu-item menu-item-type-custom menu-item-object-custom"><a href="/features/#everything2">7 Portfolio Types</a></li>
-        		<li class="menu-item-11744 menu-item menu-item-type-custom menu-item-object-custom"><a href="/features/#everything2">Promo Bar</a></li>
-        		<li class="menu-item-11745 menu-item menu-item-type-custom menu-item-object-custom"><a href="/features/#everything2">Demo Content Included</a></li>
-        	</ul>
-        </li><li class="menu-item-11775 menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children     mega-unit mega-hdr parent" style="height: 301px;"><a href="#" class="mega-hdr-a" style="height: 0px;">Features 2</a>
-        	<ul class="sub-menu">
-        		<li class="menu-item-11746 menu-item menu-item-type-custom menu-item-object-custom"><a href="/features/#everything2">Colour Scheme</a></li>
-        		<li class="menu-item-11747 menu-item menu-item-type-custom menu-item-object-custom"><a href="/features/#everything2">Boxed / Full-width Layout</a></li>
-        		<li class="menu-item-11748 menu-item menu-item-type-custom menu-item-object-custom"><a href="/features/#everything2">Inner/Outer Page Background</a></li>
-        		<li class="menu-item-11749 menu-item menu-item-type-custom menu-item-object-custom"><a href="/features/#everything2">Mini Header</a></li>
-        		<li class="menu-item-11750 menu-item menu-item-type-custom menu-item-object-custom"><a href="/features/#everything2">Powerful Page Meta</a></li>
-        		<li class="menu-item-11751 menu-item menu-item-type-custom menu-item-object-custom"><a href="/features/#everything">Retina-Ready</a></li>
-        		<li class="menu-item-11752 menu-item menu-item-type-custom menu-item-object-custom"><a href="/features/#everything">Full Shop</a></li>
-        	</ul>
-        </li><li class="menu-item-11776 menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children     mega-unit mega-hdr parent" style="height: 301px;"><a href="#" class="mega-hdr-a" style="height: 0px;">Features 3</a>
-        	<ul class="sub-menu">
-        		<li class="menu-item-11757 menu-item menu-item-type-custom menu-item-object-custom"><a href="/features/#mobile">Mobile Ready</a></li>
-        		<li class="menu-item-11754 menu-item menu-item-type-custom menu-item-object-custom"><a href="/features/#pagebuilder">Swift Page Builder</a></li>
-        		<li class="menu-item-11755 menu-item menu-item-type-custom menu-item-object-custom"><a href="/features/#pagebuilder">27 Pre-Built Pages</a></li>
-        		<li class="menu-item-11753 menu-item menu-item-type-custom menu-item-object-custom"><a href="/features/#everything">Loaded with Shortcodes</a></li>
-        		<li class="menu-item-11756 menu-item menu-item-type-custom menu-item-object-custom"><a href="/features/#pagebuilder">Beautiful Standard Pages</a></li>
-        		<li class="menu-item-11758 menu-item menu-item-type-custom menu-item-object-custom"><a href="/features/#headers">7 Header Types</a></li>
-        		<li class="menu-item-11759 menu-item menu-item-type-custom menu-item-object-custom"><a href="/features/#nextlevel">Animation: Images</a></li>
-        	</ul>
-        </li><li class="menu-item-11777 menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children     mega-unit mega-hdr parent" style="height: 301px;"><a href="#" class="mega-hdr-a" style="height: 0px;">Features 4</a>
-        	<ul class="sub-menu">
-        		<li class="menu-item-11760 menu-item menu-item-type-custom menu-item-object-custom"><a href="/features/#nextlevel">Animate: Icon Boxes</a></li>
-        		<li class="menu-item-11761 menu-item menu-item-type-custom menu-item-object-custom"><a href="/features/#nextlevel">Animate: Counters &amp; Charts</a></li>
-        		<li class="menu-item-11762 menu-item menu-item-type-custom menu-item-object-custom"><a href="/features/#nextlevel">Full-screen Video Playback</a></li>
-        		<li class="menu-item-11763 menu-item menu-item-type-custom menu-item-object-custom"><a href="/features/#video">Video &amp; Image Parallax</a></li>
-        		<li class="menu-item-11764 menu-item menu-item-type-custom menu-item-object-custom"><a href="/features/#nextlevel">Native HTML 5 Video</a></li>
-        		<li class="menu-item-11765 menu-item menu-item-type-custom menu-item-object-custom"><a href="/features/#icons">Gizmo Icons</a></li>
-        		<li class="menu-item-11766 menu-item menu-item-type-custom menu-item-object-custom"><a href="/features/#icons">Font Awesome Icons</a></li>
-        	</ul>
-        </li><li class="menu-item-11778 menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children     mega-unit mega-hdr last parent" style="height: 301px;"><a href="#" class="mega-hdr-a" style="height: 0px;">Features 5</a>
-        	<ul class="sub-menu">
-        		<li class="menu-item-11767 menu-item menu-item-type-custom menu-item-object-custom"><a href="/features/#customcolour">Custom Colours</a></li>
-        		<li class="menu-item-11768 menu-item menu-item-type-custom menu-item-object-custom"><a href="/features/#fonts">600+ Google Fonts</a></li>
-        		<li class="menu-item-11769 menu-item menu-item-type-custom menu-item-object-custom"><a href="/features/#fonts">FontDeck Support</a></li>
-        		<li class="menu-item-11770 menu-item menu-item-type-custom menu-item-object-custom"><a href="/features/#sliders">Revolution Slider</a></li>
-        		<li class="menu-item-11771 menu-item menu-item-type-custom menu-item-object-custom"><a href="/features/#sliders">Layer Slider</a></li>
-        		<li class="menu-item-11772 menu-item menu-item-type-custom menu-item-object-custom"><a href="/features/#sliders">Swift Slider</a></li>
-        		<li class="menu-item-11773 menu-item menu-item-type-custom menu-item-object-custom"><a href="/features/#support">Free Support &amp; Updates</a></li>
-        	</ul>
-        </li></div>
-
-
-
-
-        </ul></div>
-        </li>
-        <li class="menu-item-10402 no-headings menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children     dc-mega-li parent"><a href="#" class="dc-mega">Pages<span class="nav-line"></span><span class="dc-mega-icon"></span></a>
-        <div class="sub-container mega" style="width: 1170px; left: 0px; top: 63px; z-index: 1000;"><ul class="sub-menu sub" style="display: none;">
-        	<div class="row" style="width: 1140px;"><li class="menu-item-11378 menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children     mega-unit mega-hdr parent" style="height: 258px;"><a href="#" class="mega-hdr-a" style="height: 0px;">Pages 1</a>
-        	<ul class="sub-menu">
-        		<li class="menu-item-11377 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://dante.swiftideas.net/pages/about/">About Us</a></li>
-        		<li class="menu-item-10928 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://dante.swiftideas.net/pages/about-us-alt/">About Us 2</a></li>
-        		<li class="menu-item-11238 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://dante.swiftideas.net/careers/">Careers</a></li>
-        		<li class="menu-item-10916 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://dante.swiftideas.net/pages/contact/">Contact</a></li>
-        		<li class="menu-item-10923 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://dante.swiftideas.net/pages/contact-2/">Contact 2</a></li>
-        		<li class="menu-item-10959 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://dante.swiftideas.net/delivery-returns/">Delivery &amp; Returns</a></li>
-        	</ul>
-        </li><li class="menu-item-11379 menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children     mega-unit mega-hdr parent" style="height: 258px;"><a href="#" class="mega-hdr-a" style="height: 0px;">Pages 2</a>
-        	<ul class="sub-menu">
-        		<li class="menu-item-10926 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://dante.swiftideas.net/pages/default-page-full-width/">Full-width Page</a></li>
-        		<li class="menu-item-11382 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://dante.swiftideas.net/pages/help-centre-f-a-q/">Help Centre / F.A.Q.</a></li>
-        		<li class="menu-item-11368 menu-item menu-item-type-custom menu-item-object-custom"><a href="/?jobs=another-job-description">Job Description</a></li>
-        		<li class="menu-item-10893 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://dante.swiftideas.net/pages/meet-the-team/">Meet the team</a></li>
-        		<li class="menu-item-11237 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://dante.swiftideas.net/pages/our-offices/">Our Offices</a></li>
-        		<li class="menu-item-10927 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://dante.swiftideas.net/pages/pricing/">Pricing</a></li>
-        	</ul>
-        </li><li class="menu-item-11380 menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children     mega-unit mega-hdr parent" style="height: 258px;"><a href="#" class="mega-hdr-a" style="height: 0px;">Pages 3</a>
-        	<ul class="sub-menu">
-        		<li class="menu-item-11383 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://dante.swiftideas.net/payment/">Payment</a></li>
-        		<li class="menu-item-10960 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://dante.swiftideas.net/privacy/">Privacy</a></li>
-        		<li class="menu-item-10891 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://dante.swiftideas.net/pages/services/">Services &amp; Capabilities</a></li>
-        		<li class="menu-item-11236 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://dante.swiftideas.net/services-capabilities-2/">Services &amp; Capabilities Alt</a></li>
-        		<li class="menu-item-10958 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://dante.swiftideas.net/stores/">Stores</a></li>
-        		<li class="menu-item-11239 menu-item menu-item-type-custom menu-item-object-custom"><a href="/?team=photographer">Team Member</a></li>
-        	</ul>
-        </li><li class="menu-item-11381 menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children     mega-unit mega-hdr last parent" style="height: 258px;"><a href="#" class="mega-hdr-a" style="height: 0px;">Pages 4</a>
-        	<ul class="sub-menu">
-        		<li class="menu-item-11384 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://dante.swiftideas.net/pages/default-page-sidebar-right/">Sidebar Page Right</a></li>
-        		<li class="menu-item-10924 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://dante.swiftideas.net/pages/default-page-sidebar-left/">Sidebar Page Left</a></li>
-        		<li class="menu-item-11337 menu-item menu-item-type-custom menu-item-object-custom"><a href="http://dante.swiftideas.net/?s=post">Search Results</a></li>
-        		<li class="menu-item-11880 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://dante.swiftideas.net/maintenance-mode/">Maintenance Mode</a></li>
-        		<li class="menu-item-11881 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://dante.swiftideas.net/coming-soon/">Coming Soon</a></li>
-        		<li class="menu-item-11911 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://dante.swiftideas.net/parallax-page-demo/">Parallax Page Demo</a></li>
-        	</ul>
-        </li></div>
-
-
-
-        </ul></div>
-        </li>
-        <li class="menu-item-10407 no-headings sf-mega-menu-5col sf-mega-menu-alt menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children     dc-mega-li parent"><a href="#" class="dc-mega">Shortcodes<span class="nav-line"></span><span class="dc-mega-icon"></span></a>
-        <div class="sub-container mega" style="width: 1170px; left: 0px; top: 63px; z-index: 1000;"><ul class="sub-menu sub" style="display: none;">
-        	<div class="row" style="width: 1140px;"><li class="menu-item-11065 menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children     mega-unit mega-hdr parent" style="height: 251px;"><a href="#" class="mega-hdr-a" style="height: 0px;">Shortcodes 1</a>
-        	<ul class="sub-menu">
-        		<li class="menu-item-10865 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://dante.swiftideas.net/shortcodes/accordion-toggles/"><i class="ss-rows"></i>Accordion &amp; Toggles</a></li>
-        		<li class="menu-item-11191 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://dante.swiftideas.net/shortcodes/animation-icon-boxes/"><i class="ss-play"></i>Animation: Icon Boxes</a></li>
-        		<li class="menu-item-11192 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://dante.swiftideas.net/shortcodes/animation-images/"><i class="ss-picture"></i>Animation: Images</a></li>
-        		<li class="menu-item-10877 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://dante.swiftideas.net/shortcodes/boxed-content/"><i class="ss-stop"></i>Boxed Content</a></li>
-        		<li class="menu-item-10883 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://dante.swiftideas.net/shortcodes/buttons-social-icons/"><i class="ss-pointup"></i>Buttons &amp; Social Icons</a></li>
-        	</ul>
-        </li><li class="menu-item-11066 menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children     mega-unit mega-hdr parent" style="height: 251px;"><a href="#" class="mega-hdr-a" style="height: 0px;">Shortcodes 2</a>
-        	<ul class="sub-menu">
-        		<li class="menu-item-10890 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://dante.swiftideas.net/shortcodes/columns/"><i class="ss-columns"></i>Columns</a></li>
-        		<li class="menu-item-11072 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://dante.swiftideas.net/countdown/"><i class="ss-stopwatch"></i>Countdown</a></li>
-        		<li class="menu-item-10918 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://dante.swiftideas.net/shortcodes/charts-progress-bars/"><i class="ss-piechart"></i>Counters, Charts &amp; Progress Bars</a></li>
-        		<li class="menu-item-10889 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://dante.swiftideas.net/shortcodes/dividers/"><i class="ss-hyphen"></i>Dividers</a></li>
-        		<li class="menu-item-10887 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://dante.swiftideas.net/shortcodes/dropcaps-ampersand-highlighter/"><i class="ss-write"></i>Dropcaps, Ampersand &amp; Highlighter</a></li>
-        	</ul>
-        </li><li class="menu-item-11067 menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children     mega-unit mega-hdr parent" style="height: 251px;"><a href="#" class="mega-hdr-a" style="height: 0px;">Shortcodes 3</a>
-        	<ul class="sub-menu">
-        		<li class="menu-item-10882 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://dante.swiftideas.net/shortcodes/google-charts/"><i class="ss-barchart"></i>Google Charts</a></li>
-        		<li class="menu-item-10915 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://dante.swiftideas.net/shortcodes/google-maps/"><i class="ss-location"></i>Google Maps</a></li>
-        		<li class="menu-item-11071 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://dante.swiftideas.net/image-banners/"><i class="ss-bezier"></i>Image Banners</a></li>
-        		<li class="menu-item-11170 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://dante.swiftideas.net/shortcodes/icon-boxes/"><i class="ss-storagebox"></i>Icon Boxes</a></li>
-        		<li class="menu-item-10911 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://dante.swiftideas.net/shortcodes/iconography/"><i class="ss-man"></i>Iconography</a></li>
-        	</ul>
-        </li><li class="menu-item-11068 menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children     mega-unit mega-hdr parent" style="height: 251px;"><a href="#" class="mega-hdr-a" style="height: 0px;">Shortcodes 4</a>
-        	<ul class="sub-menu">
-        		<li class="menu-item-10881 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://dante.swiftideas.net/shortcodes/images-videos-lightbox/"><i class="ss-video"></i>Images, Videos &amp; Lightbox</a></li>
-        		<li class="menu-item-10878 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://dante.swiftideas.net/shortcodes/lists/"><i class="ss-database"></i>Lists</a></li>
-        		<li class="menu-item-10886 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://dante.swiftideas.net/shortcodes/message-boxes-alerts/"><i class="ss-info"></i>Message Boxes / Alerts</a></li>
-        		<li class="menu-item-11193 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://dante.swiftideas.net/shortcodes/modals/"><i class="ss-airplay"></i>Modals</a></li>
-        		<li class="menu-item-10879 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://dante.swiftideas.net/shortcodes/pricing-tables/"><i class="ss-creditcard"></i>Pricing Tables</a></li>
-        	</ul>
-        </li><li class="menu-item-11070 menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children     mega-unit mega-hdr last parent" style="height: 251px;"><a href="#" class="mega-hdr-a" style="height: 0px;">Shortcodes 5</a>
-        	<ul class="sub-menu">
-        		<li class="menu-item-10884 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://dante.swiftideas.net/shortcodes/quotes/"><i class="ss-quote"></i>Quotes</a></li>
-        		<li class="menu-item-11195 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://dante.swiftideas.net/shortcodes/responsive-visibility/"><i class="ss-view"></i>Responsive Visibility</a></li>
-        		<li class="menu-item-10880 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://dante.swiftideas.net/shortcodes/tables/"><i class="ss-thumbnails"></i>Tables</a></li>
-        		<li class="menu-item-10888 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://dante.swiftideas.net/shortcodes/tabs-tours/"><i class="ss-layergroup"></i>Tabs &amp; Tours</a></li>
-        		<li class="menu-item-10859 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://dante.swiftideas.net/shortcodes/typography/"><i class="ss-pen"></i>Typography</a></li>
-        	</ul>
-        </li></div>
-
-
-
-
-        </ul></div>
-        </li>
-        <li class="menu-item-10403 menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sf-mega-menu-natural-width sf-mega-menu-alt no-headings  dc-mega-li parent"><a href="#" class="dc-mega">Portfolio<span class="nav-line"></span><span class="dc-mega-icon"></span></a>
-        <div class="sub-container mega" style="width: 1170px; left: 0px; top: 63px; z-index: 1000;"><ul class="sub-menu sub" style="display: none;">
-        	<div class="row" style="width: 440px;"><li class="menu-item-11960 menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children     mega-unit mega-hdr parent" style="height: 377px;"><a href="#" class="mega-hdr-a" style="height: 0px;">Portfolio 1</a>
-        	<ul class="sub-menu">
-        		<li class="menu-item-10855 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://dante.swiftideas.net/portfolio-one-column-standard-style/portfolio-two-standard/">Two Column: Standard</a></li>
-        		<li class="menu-item-10857 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://dante.swiftideas.net/portfolio-one-column-standard-style/portfolio-two-gallery/">Two Column: Gallery</a></li>
-        		<li class="menu-item-10854 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://dante.swiftideas.net/portfolio-one-column-standard-style/portfolio-three-standard/">Three Column: Standard</a></li>
-        		<li class="menu-item-10856 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://dante.swiftideas.net/portfolio-one-column-standard-style/portfolio-three-gallery/">Three Column: Gallery</a></li>
-        		<li class="menu-item-10852 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://dante.swiftideas.net/portfolio-one-column-standard-style/portfolio-four-standard/">Four Column: Standard</a></li>
-        		<li class="menu-item-10853 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://dante.swiftideas.net/portfolio-one-column-standard-style/portfolio-four-gallery/">Four Column: Gallery</a></li>
-        		<li class="menu-item-11201 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://dante.swiftideas.net/portfolio-one-column-standard-style/portfolio-masonry-standard/">Masonry: Standard</a></li>
-        		<li class="menu-item-11200 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://dante.swiftideas.net/portfolio-one-column-standard-style/portfolio-masonry-gallery/">Masonry: Gallery</a></li>
-        	</ul>
-        </li><li class="menu-item-11961 menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children     mega-unit mega-hdr last parent" style="height: 377px;"><a href="#" class="mega-hdr-a" style="height: 0px;">Portfolio 2</a>
-        	<ul class="sub-menu">
-        		<li class="menu-item-11963 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://dante.swiftideas.net/portfolio-full-width-masonry/">Full Width: Standard</a></li>
-        		<li class="menu-item-11962 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://dante.swiftideas.net/portfolio-full-width-masonry-gallery/">Full Width: Gallery</a></li>
-        		<li class="menu-item-11522 menu-item menu-item-type-custom menu-item-object-custom"><a href="/portfolio/space-invaders/">Single: Standard Full Width</a></li>
-        		<li class="menu-item-11538 menu-item menu-item-type-custom menu-item-object-custom"><a href="/portfolio/saap/">Single: Standard Full</a></li>
-        		<li class="menu-item-11521 menu-item menu-item-type-custom menu-item-object-custom"><a href="/portfolio/desert-mini-planet/">Single: Standard Split</a></li>
-        		<li class="menu-item-11523 menu-item menu-item-type-custom menu-item-object-custom"><a href="/portfolio/s-mini-golf/">Single: Standard Slideshow</a></li>
-        		<li class="menu-item-11524 menu-item menu-item-type-custom menu-item-object-custom"><a href="/portfolio/robot-chicken/">Single: Page Builder</a></li>
-        	</ul>
-        </li></div>
-
-        </ul></div>
-        </li>
-        <li class="menu-item-10404 no-headings menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children     dc-mega-li parent"><a href="#" class="dc-mega">Blog<span class="nav-line"></span><span class="dc-mega-icon"></span></a>
-        <div class="sub-container mega" style="width: 1170px; left: 0px; top: 63px; z-index: 1000;"><ul class="sub-menu sub" style="display: none;">
-        	<div class="row" style="width: 1140px;"><li class="menu-item-11270 menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children     mega-unit mega-hdr parent" style="height: 215px;"><a class="mega-hdr-a" style="height: 0px;">Blog 1</a>
-        	<ul class="sub-menu">
-        		<li class="menu-item-11391 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://dante.swiftideas.net/blog-timeline-full-width/">Blog Timeline Full Width</a></li>
-        		<li class="menu-item-11390 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://dante.swiftideas.net/blog-timeline-full-width/blog-timeline-right-sidebar/">Blog Timeline Right Sidebar</a></li>
-        		<li class="menu-item-11389 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://dante.swiftideas.net/blog-timeline-full-width/blog-timeline-left-sidebar/">Blog Timeline Left Sidebar</a></li>
-        		<li class="menu-item-11412 menu-item menu-item-type-custom menu-item-object-custom"><a href="/2013/11/09/standard-post/">Standard Post</a></li>
-        		<li class="menu-item-11413 menu-item menu-item-type-custom menu-item-object-custom"><a href="/2013/11/06/page-builder-post/">Page Builder Post</a></li>
-        	</ul>
-        </li><li class="menu-item-11271 menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children     mega-unit mega-hdr parent" style="height: 215px;"><a href="#" class="mega-hdr-a" style="height: 0px;">Blog 2</a>
-        	<ul class="sub-menu">
-        		<li class="menu-item-11398 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://dante.swiftideas.net/blog-timeline-full-width/blog-mini-right-sidebar/">Blog Mini Right Sidebar</a></li>
-        		<li class="menu-item-11397 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://dante.swiftideas.net/blog-timeline-full-width/blog-mini-left-sidebar/">Blog Mini Left Sidebar</a></li>
-        		<li class="menu-item-11399 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://dante.swiftideas.net/blog-timeline-full-width/blog-mini-full-width/">Blog Mini Full Width</a></li>
-        		<li class="menu-item-11396 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://dante.swiftideas.net/blog-timeline-full-width/blog-mini-dual-sidebars/">Blog Mini Dual Sidebars</a></li>
-        	</ul>
-        </li><li class="menu-item-11269 menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children     mega-unit mega-hdr parent" style="height: 215px;"><a href="#" class="mega-hdr-a" style="height: 0px;">Blog 3</a>
-        	<ul class="sub-menu">
-        		<li class="menu-item-11918 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://dante.swiftideas.net/blog-timeline-full-width/blog-masonry-full-width/">Blog Masonry Full-Width</a></li>
-        		<li class="menu-item-11268 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://dante.swiftideas.net/blog-timeline-full-width/blog-masonry-effect-one/">Blog Masonry Effect 1</a></li>
-        		<li class="menu-item-11414 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://dante.swiftideas.net/blog-timeline-full-width/blog-masonry-effect-two/">Blog Masonry Effect 2</a></li>
-        		<li class="menu-item-11266 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://dante.swiftideas.net/blog-timeline-full-width/blog-masonry-effect-three/">Blog Masonry Effect 3</a></li>
-        		<li class="menu-item-11265 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://dante.swiftideas.net/blog-timeline-full-width/blog-masonry-effect-four/">Blog Masonry Effect 4</a></li>
-        	</ul>
-        </li><li class="menu-item-11273 menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children     mega-unit mega-hdr last parent" style="height: 215px;"><a href="#" class="mega-hdr-a" style="height: 0px;">Blog 4</a>
-        	<ul class="sub-menu">
-        		<li class="menu-item-11264 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://dante.swiftideas.net/blog-timeline-full-width/blog-masonry-effect-five/">Blog Masonry Effect 5</a></li>
-        		<li class="menu-item-11263 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://dante.swiftideas.net/blog-timeline-full-width/blog-masonry-effect-six/">Blog Masonry Effect 6</a></li>
-        		<li class="menu-item-11262 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://dante.swiftideas.net/blog-timeline-full-width/blog-masonry-effect-seven/">Blog Masonry Effect 7</a></li>
-        		<li class="menu-item-11261 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://dante.swiftideas.net/blog-timeline-full-width/blog-masonry-effect-eight/">Blog Masonry Effect 8</a></li>
-        		<li class="menu-item-11275 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://dante.swiftideas.net/blog-timeline-full-width/blog-masonry-with-aux/">Blog Masonry with Aux</a></li>
-        	</ul>
-        </li></div>
-
-
-
-        </ul></div>
-        </li>
-        <li class="menu-item-10945 menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children  sf-mega-menu-alt no-headings  dc-mega-li parent"><a href="http://dante.swiftideas.net/shop/" class="dc-mega">Shop<span class="nav-line"></span><span class="dc-mega-icon"></span></a>
-        <div class="sub-container mega" style="width: 1170px; left: 0px; top: 63px; z-index: 1000;"><ul class="sub-menu sub" style="display: none;">
-        	<div class="row" style="width: 960px;"><li class="menu-item-11919 menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children     mega-unit mega-hdr parent" style="width: 240px; height: 384px;"><a href="#" class="mega-hdr-a" style="height: 0px;">Shop 1</a>
-        	<ul class="sub-menu">
-        		<li class="menu-item-10972 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://dante.swiftideas.net/shop/">Shop – with left sidebar</a></li>
-        		<li class="menu-item-10430 menu-item menu-item-type-custom menu-item-object-custom"><a href="/shop/?sidebar=right-sidebar">Shop – with right sidebar</a></li>
-        		<li class="menu-item-10431 menu-item menu-item-type-custom menu-item-object-custom"><a href="/shop/?sidebar=no-sidebar">Shop – full-width</a></li>
-        		<li class="menu-item-10429 menu-item menu-item-type-custom menu-item-object-custom"><a href="/product/nike-roshe-run/">Product Detail Page</a></li>
-        		<li class="menu-item-10975 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://dante.swiftideas.net/cart/">Shopping Bag</a></li>
-        		<li class="menu-item-10977 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://dante.swiftideas.net/wishlist/">Wishlist</a></li>
-        		<li class="menu-item-10979 menu-item menu-item-type-post_type menu-item-object-page"><a></a></li>
-        		<li class="menu-item-10973 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://dante.swiftideas.net/my-account/">My Account</a></li>
-        	</ul>
-        </li><li class="menu-item-11920 menu-item menu-item-type-custom menu-item-object-custom     mega-unit mega-hdr" style="width: 330px; height: 384px;"><a href="#" class="mega-hdr-a" style="height: 0px;">Shop 2</a><div class="mega-menu-widget"><div class="row" style="width: 960px;">
-        	<div class="product_list_widget woocommerce spb_content_element col-sm-12">
-        		<div class="spb_wrapper">
-        			<h3 class="spb-heading"><span>Best Sellers</span></h3>
-        				<ul class="mini-list mini-best-sellers"><li class="clearfix"><figure><a href="http://dante.swiftideas.net/product/sun-buddies-type-01/"><img src="http://dante.swiftideas.net/wp-content/uploads/2013/05/sunbuddies-type01-tortoise-001-70x70.jpg" width="70" height="70" alt="sunbuddies-type01-tortoise-001"></a></figure><div class="product-details"><h5><a href="http://dante.swiftideas.net/product/sun-buddies-type-01/">Sun Buddies – Type 01</a></h5><span class="product-cats"> <a href="http://dante.swiftideas.net/product-category/accessories/sunglasses/" rel="tag">Sunglasses</a></span><span class="price"><del><span class="amount">£110.00</span></del> <ins><span class="amount">£90.00</span></ins></span></div></li><li class="clearfix"><figure><a href="http://dante.swiftideas.net/product/aspesi-jacket-shirt/"><img src="http://dante.swiftideas.net/wp-content/uploads/2013/05/aspesi-jacket-shirt-olive001-70x70.jpg" width="70" height="70" alt="aspesi-jacket-shirt-olive001"></a></figure><div class="product-details"><h5><a href="http://dante.swiftideas.net/product/aspesi-jacket-shirt/">Aspesi – Jacket Shirt</a></h5><span class="product-cats"> <a href="http://dante.swiftideas.net/product-category/jackets/" rel="tag">Jackets</a>, <a href="http://dante.swiftideas.net/product-category/shirts/" rel="tag">Shirts</a></span><span class="price"><span class="amount">£260.00</span></span></div></li><li class="clearfix"><figure><a href="http://dante.swiftideas.net/product/our-legacy-suede-shirt/"><img src="http://dante.swiftideas.net/wp-content/uploads/2013/05/ol-suade-jacket-grey001-70x70.jpg" width="70" height="70" alt="ol-suade-jacket-grey001"></a></figure><div class="product-details"><h5><a href="http://dante.swiftideas.net/product/our-legacy-suede-shirt/">Our Legacy – Suede Shirt</a></h5><span class="product-cats"> <a href="http://dante.swiftideas.net/product-category/shirts/" rel="tag">Shirts</a></span><span class="price"><del><span class="amount">£460.00</span></del> <ins><span class="amount">£395.00</span></ins></span></div></li></ul>
-        		</div>
-        	</div> </div></div></li><li class="menu-item-11921 menu-item menu-item-type-custom menu-item-object-custom     mega-unit mega-hdr" style="height: 384px;"><a href="#" class="mega-hdr-a" style="height: 0px;">Shop 3</a><div class="mega-menu-widget"><div class="row" style="width: 960px;">
-        	<div class="product_list_widget woocommerce spb_content_element col-sm-12">
-        		<div class="spb_wrapper">
-        			<h3 class="spb-heading"><span>Top Rated</span></h3>
-        				<ul class="mini-list mini-top-rated"><li class="clearfix"><figure><a href="http://dante.swiftideas.net/product/sun-buddies-type-01/"><img src="http://dante.swiftideas.net/wp-content/uploads/2013/05/sunbuddies-type01-tortoise-001-70x70.jpg" width="70" height="70" alt="sunbuddies-type01-tortoise-001"></a></figure><div class="product-details"><h5><a href="http://dante.swiftideas.net/product/sun-buddies-type-01/">Sun Buddies – Type 01</a></h5><span class="price"><del><span class="amount">£110.00</span></del> <ins><span class="amount">£90.00</span></ins></span></div></li><li class="clearfix"><figure><a href="http://dante.swiftideas.net/product/our-legacy-half-zip-shirt/"><img src="http://dante.swiftideas.net/wp-content/uploads/2013/05/ol-jeans-shirt001-70x70.jpg" width="70" height="70" alt="ol-jeans-shirt001"></a></figure><div class="product-details"><h5><a href="http://dante.swiftideas.net/product/our-legacy-half-zip-shirt/">Our Legacy – Half Zip Shirt</a></h5><div class="star-rating" title="Rated 4.50 out of 5"><span style="width:72px"><span class="rating">4.50</span> out of 5</span></div><span class="price"><span class="amount">£125.00</span></span></div></li><li class="clearfix"><figure><a href="http://dante.swiftideas.net/product/nike-roshe-run/"><img src="http://dante.swiftideas.net/wp-content/uploads/2013/05/nike-roshe-run-mid-qs-tko-001-70x70.jpg" width="70" height="70" alt="nike-roshe-run-mid-qs-tko-001"></a></figure><div class="product-details"><h5><a href="http://dante.swiftideas.net/product/nike-roshe-run/">Nike – Roshe Run</a></h5><div class="star-rating" title="Rated 4.29 out of 5"><span style="width:68.64px"><span class="rating">4.29</span> out of 5</span></div><span class="price"><span class="amount">£85.00</span></span></div></li></ul>
-        		</div>
-        	</div> </div></div></li><li class="menu-item-11922 menu-item menu-item-type-custom menu-item-object-custom     mega-unit mega-hdr last" style="height: 384px;"><a href="#" class="mega-hdr-a" style="height: 0px;">Shop 4</a><div class="mega-menu-widget"><div class="row" style="width: 960px;">
-        	<div class="product_list_widget woocommerce spb_content_element col-sm-12">
-        		<div class="spb_wrapper">
-        			<h3 class="spb-heading"><span>Sale Products</span></h3>
-        				<ul class="mini-list mini-sale-products"><li class="clearfix"><figure><a href="http://dante.swiftideas.net/product/sun-buddies-type-01/"><img src="http://dante.swiftideas.net/wp-content/uploads/2013/05/sunbuddies-type01-tortoise-001-70x70.jpg" width="70" height="70" alt="sunbuddies-type01-tortoise-001"></a></figure><div class="product-details"><h5><a href="http://dante.swiftideas.net/product/sun-buddies-type-01/">Sun Buddies – Type 01</a></h5><span class="product-cats"> <a href="http://dante.swiftideas.net/product-category/accessories/sunglasses/" rel="tag">Sunglasses</a></span><span class="price"><del><span class="amount">£110.00</span></del> <ins><span class="amount">£90.00</span></ins></span></div></li><li class="clearfix"><figure><a href="http://dante.swiftideas.net/product/our-legacy-suede-shirt/"><img src="http://dante.swiftideas.net/wp-content/uploads/2013/05/ol-suade-jacket-grey001-70x70.jpg" width="70" height="70" alt="ol-suade-jacket-grey001"></a></figure><div class="product-details"><h5><a href="http://dante.swiftideas.net/product/our-legacy-suede-shirt/">Our Legacy – Suede Shirt</a></h5><span class="product-cats"> <a href="http://dante.swiftideas.net/product-category/shirts/" rel="tag">Shirts</a></span><span class="price"><del><span class="amount">£460.00</span></del> <ins><span class="amount">£395.00</span></ins></span></div></li><li class="clearfix"><figure><a href="http://dante.swiftideas.net/product/bunney-identity-bangle/"><img src="http://dante.swiftideas.net/wp-content/uploads/2013/05/bunney-braslett001-70x70.jpg" width="70" height="70" alt="bunney-braslett001"></a></figure><div class="product-details"><h5><a href="http://dante.swiftideas.net/product/bunney-identity-bangle/">Bunney – Identity Bangle</a></h5><span class="product-cats"> <a href="http://dante.swiftideas.net/product-category/accessories/jewellery/" rel="tag">Jewellery</a></span><span class="price"><del><span class="amount">£365.00</span></del> <ins><span class="amount">£295.00</span></ins></span></div></li></ul>
-        		</div>
-        	</div> </div></div></li></div>
-
-
-
-        </ul></div>
-        </li>
-        <li class="menu-item-11910 menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children     parent"><a href="#" class="dc-mega">What’s New<span class="nav-line"></span><span class="dc-mega-icon"></span></a>
-        <div class="sub-container non-mega" style="left: 1031.265625px; top: 63px; z-index: 1000;"><ul class="sub-menu sub" style="display: none;">
-        	<li class="menu-item-11909 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://dante.swiftideas.net/whats-new/">Updates</a></li>
-        	<li class="menu-item-11589 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://dante.swiftideas.net/tutorials/">Tutorials</a></li>
-        	<li class="menu-item-11908 menu-item menu-item-type-post_type menu-item-object-page"><a href="http://dante.swiftideas.net/showcase/">Showcase</a></li>
-        </ul></div>
-        </li>
-        </ul></div></nav>
-
-                                    </div>
-                                </div> <!-- CLOSE .row -->
-                            </div> <!-- CLOSE .container -->
                         </div>
-                    </div>
-                </header>
+                    </header>
+                </div>
             </div>
-        </div>
 
         <!--// OPEN #main-container //-->
     <div id="main-container" class="clearfix">
@@ -593,19 +305,31 @@
             </section>
             <footer id="copyright" class="copyright-divider"><!--// OPEN #copyright //-->
                 <div class="container">
-                    <p>©2014 Dante · Built with love by <a href="http://www.swiftideas.net">Swift Ideas</a> using <a href="http://wordpress.org/" target="_blank">WordPress</a>. <a href="http://www.swiftideas.net" rel="nofollow">Premium WordPress Themes by Swift Ideas</a></p>
+                    <p>&copy;2015 Contact Rate. All rights Reserved. <a href="{{ url('/terms') }}">{{ trans('navigation.sub.terms') }}</a></p>
                     <nav class="footer-menu std-menu">
-                            <div class="menu-footer-menu-1-container">
-                                <ul id="menu-footer-menu-1" class="menu">
-                                    <li id="menu-item-11598" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11598"><a href="http://dante.swiftideas.net/pages/about/">About Us</a></li>
-                                    <li id="menu-item-11601" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11601"><a href="http://dante.swiftideas.net/pages/services/">Services</a></li>
-                                    <li id="menu-item-11600" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11600"><a href="http://dante.swiftideas.net/portfolio-one-column-standard-style/portfolio-three-gallery/">Portfolio</a></li>
-                                    <li id="menu-item-11599" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11599"><a href="http://dante.swiftideas.net/blog-timeline-full-width/">Blog</a></li>
-                                    <li id="menu-item-11597" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11597"><a href="http://dante.swiftideas.net/pages/contact-2/">Contact</a></li>
-                                    <li id="menu-item-11738" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11738"><a href="http://themeforest.net/item/dante-responsive-multipurpose-wordpress-theme/6175269?ref=swiftideas&amp;utm_source=demo&amp;utm_medium=menulink&amp;utm_campaign=footermenu">Buy Now</a></li>
-                                </ul>
-                            </div>
-                        </nav>
+                        <div class="menu-footer-menu-1-container">
+                            <ul id="menu-footer-menu-1" class="menu">
+                                <li class="menu-item">
+                                    <a href="http://dante.swiftideas.net/pages/about/">About Us</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="http://dante.swiftideas.net/pages/services/">Services</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="http://dante.swiftideas.net/portfolio-one-column-standard-style/portfolio-three-gallery/">Portfolio</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="http://dante.swiftideas.net/blog-timeline-full-width/">Blog</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="http://dante.swiftideas.net/pages/contact-2/">Contact</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="#">Buy Now</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
                 </div>
             </footer><!--// CLOSE #copyright //-->
         </div>
