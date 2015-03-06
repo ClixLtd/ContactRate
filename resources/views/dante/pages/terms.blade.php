@@ -74,13 +74,47 @@
 
                                     <li>
                                         <p>HotKeys are transferred on 3 way calls of which the criteria will be confirmed, if the criteria is not met at this point the client can refuse the transfer and this will not be counted as a payable transfer.</p>
-                                        <ul>
-                                            <li><p>All calls undergo Quality Control if any do not pass these are automatically replaced. If you have any queries about a HotKey this must be reported within 24 hours. The call recording will be reviewed and if the criteria is met the recording will be supplied to the client, if the criteria is not met then the HotKey will be replaced</p></li>
+                                        <ul style="list-style-type: lower-roman">
+                                            <li><p>All calls undergo Quality Control if any do not pass these are automatically replaced. If you have any queries about a HotKey this must be reported within 24 hours. The call recording will be reviewed and if the criteria is met the recording will be supplied to the client, if the criteria is not met then the HotKey will be replaced.</p></li>
                                             <li><p>The client agrees that if a HotKey is attempted to be transferred by Contact Rate Ltd and there is nobody available the HotKey is still chargeable at the standard rate. The client is responsible for having available resources to take HotKeys at times, as detained in the order form under the “Campaign Operating Times” section.</p></li>
                                         </ul>
                                     </li>
                                 </ul>
                             </li>
+                            <li>
+                                <p>SPECIFICATION</p>
+                                <p>Contact Rate reserves the right on the sale of any Material to make before delivery any alteration to or departure from the specification or design of the Material detailed on the order; provided that it shall not adversely affect the performance or quality of the Material. All specifications or documents issued by Contact Rate either before or after conclusion of the order are issued solely for the Clients use in connection with the Material and shall not be copied, reproduced or communicated to any third party without Contact Rate express consent in writing.</p>
+                            </li>
+                            <li>
+                                <p>FORCE MAJEURE AND FRUSTRATION</p>
+                                <p>Contact Rate shall:-
+                                <ul style="list-style-type: lower-roman">
+                                    <li>In any event not be liable for loss or damage and</li>
+                                    <li>Be entitled to cancel or rescind the contract, if the performance of its obligations under the contract </li>
+                                </ul>
+                                </p>
+                                <p>is in any way adversely affected by any cause whatsoever beyond Contact Rate control including but not Limited to the delays or defaults of suppliers or the default of any sub-contractor, war, strike, lock-out, trade dispute, flood, accident to plant or machinery, shortage of materials or labour.</p>
+                            </li>
+                            <li>
+                                <p>CANCELLATION</p>
+                                <p>No contract or order may be cancelled without Contact Rate written consent in the event that cancellation is agreed for whatever reason the Client shall indemnify Contact Rate against all costs, claims, loss and expenses occasioned thereby including any consequential loss and loss of profits.</p>
+                            </li>
+                            <li>
+                                <p>GENERAL</p>
+                                <ol style="list-style-type: lower-alpha">
+                                    <li><p>Contact Rate liability under any contract is Limited to making Material defects or failures to the extent provided in condition 8 hereof and subject thereto Contact Rate shall not in any circumstances be liable for any loss, damage, costs charges or expense (including indirect and consequential loss or damage) of any nature howsoever arising, and including but not Limited to any loss resulting directly or indirectly from the negligent act or default of Contact Rate its servants, bureaus, brokers, agents or suppliers or from anything supplied or specified by the Client or from the failure to or delay in supply of any such thing. The Client shall reimburse Contact Rate for all costs, expenses, losses and damages arising directly or indirectly from the improper use of Materials or late/non-delivery of anything supplied or specified by the Client.</p></li>
+                                    <li><p>The Client shall not rely upon any representations as to the Material or its quality for any particular purpose, unless made by Contact Rate in writing.</p></li>
+                                </ol>
+                            </li>
+                            <li>
+                                <p>LAW</p>
+                                <p>This contract shall be subject to and construed in accordance with the laws of England in all respects as an English contract subject to the jurisdiction of the English Courts. The uniform laws on international sales shall not apply.</p>
+                            </li>
+                            <li>
+                                <p>COPYRIGHT</p>
+                                <p>Contact Rate documentation and the information described in it are copyrighted with all rights reserved. Under copyright Contact Rate documentation may not be reproduced, translated, or reduced to any electronic medium or machine readable form, in whole or in part, without the prior written consent of Contact Rate. Failure to comply with this condition may result in prosecution. Contact Rate does not warrant that the Material supplied will function properly in every hardware/software environment. Although Contact Rate make no representation, either express or implied, with respect to the Material, the quality, performance, merchantability, or fitness for a particular purpose. The Material is licensed "as is", and you, the Client, by making use thereof, are assuming the entire risk as to its quality and performance.</p>
+                            </li>
+
                         </ol>
                     </div>
                 </div>

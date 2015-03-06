@@ -142,14 +142,7 @@
                         <div id="top-header">
                         <div id="top-header"><div class="container">
                         <div class="th-left col-sm-6 clearfix">
-                        Contact us on 0800 123 4567 or info@dante.com</div> <!-- CLOSE .tb-left -->
-                        <div class="th-right col-sm-6 clearfix">
-                            <nav class="std-menu top-header-menu">
-                                <ul class="menu">
-                                    <li><a href="http://dante.swiftideas.net/my-account/">Login</a></li>
-                                </ul>
-                            </nav>
-                        </div> <!-- CLOSE .tb-right -->
+                        Contact us on <a href="tel:+448448018554">0844 801 8554</a> or <a href="mailto:talkto@contactrate.co.uk">talkto@contactrate.co.uk</a></div> <!-- CLOSE .tb-left -->
                         </div> <!-- CLOSE .container -->
                         </div>
                         </div>
@@ -194,110 +187,17 @@
                                 <div class="textwidget">
                                     <ul class="social-icons standard ">
                                         <li class="twitter"><a href="http://www.twitter.com/#" target="_blank"><i class="fa-twitter"></i><i class="fa-twitter"></i></a></li>
-                                        <li class="facebook"><a href="#" target="_blank"><i class="fa-facebook"></i><i class="fa-facebook"></i></a></li>
-                                        <li class="dribbble"><a href="http://www.dribbble.com/#" target="_blank"><i class="fa-dribbble"></i><i class="fa-dribbble"></i></a></li>
-                                        <li class="youtube"><a href="#" target="_blank"><i class="fa-youtube"></i><i class="fa-youtube"></i></a></li>
-                                        <li class="vimeo"><a href="http://www.vimeo.com/#" target="_blank"><i class="fa-vimeo-square"></i><i class="fa-vimeo-square"></i></a></li>
-                                        <li class="tumblr"><a href="http://tumblr.tumblr.com/" target="_blank"><i class="fa-tumblr"></i><i class="fa-tumblr"></i></a></li>
+                                        <li class="facebook"><a href="https://www.facebook.com/pages/Contact-Rate/1521198271493401" target="_blank"><i class="fa-facebook"></i><i class="fa-facebook"></i></a></li>
                                         <li class="skype"><a href="skype:#" target="_blank"><i class="fa-skype"></i><i class="fa-skype"></i></a></li>
                                         <li class="linkedin"><a href="#" target="_blank"><i class="fa-linkedin"></i><i class="fa-linkedin"></i></a></li>
                                         <li class="googleplus"><a href="#" target="_blank"><i class="fa-google-plus"></i><i class="fa-google-plus"></i></a></li>
-                                        <li class="flickr"><a href="#" target="_blank"><i class="fa-flickr"></i><i class="fa-flickr"></i></a></li>
-                                        <li class="pinterest"><a href="http://www.pinterest.com/#/" target="_blank"><i class="fa-pinterest"></i><i class="fa-pinterest"></i></a></li>
-                                        <li class="foursquare"><a href="#" target="_blank"><i class="fa-foursquare"></i><i class="fa-foursquare"></i></a></li>
-                                        <li class="instagram"><a href="http://instagram.com/#" target="_blank"><i class="fa-instagram"></i><i class="fa-instagram"></i></a></li>
-                                        <li class="github"><a href="#" target="_blank"><i class="fa-github"></i><i class="fa-github"></i></a></li>
                                     </ul>
                                     <p>
-                                        <br>No.1 Abbey Road, London, W1 ECH<br>
-                                        Call: +44 (0) 800 123 4567<br>
-                                        Email: <a href="#">info@swiftideas.net</a>
+                                        <br>UNIT G LYNSTOCK WAY, LOSTOCK, BOLTON, BL6 4SG<br>
+                                        Call: <a href="tel:+448448018554">+44 (0) 844 801 8554</a><br>
+                                        Email: <a href="mailto:talkto@contactrate.co.uk">talkto@contactrate.co.uk</a>
                                     </p>
                                 </div>
-                            </section>
-                        </div>
-                        <div class="col-sm-3">
-                            <section id="twitter-widget-3" class="widget twitter-widget clearfix">
-                                <div class="widget-heading clearfix"><h6>RECENT TWEETS</h6></div>
-                                <ul class="twitter-widget">
-                                    <li>
-                                        <div class="tweet-text">
-                                            <a href="http://www.twitter.com/aneeshjajodia" target="_blank">@aneeshjajodia</a> as I said - unfortunately Envato have strict policies against this, in any form of discount.</div><div class="twitter_intents">
-                                            <a class="reply" href="https://twitter.com/intent/tweet?in_reply_to=537949735458713601"><i class="fa-reply"></i></a>
-                                            <a class="retweet" href="https://twitter.com/intent/retweet?tweet_id=537949735458713601"><i class="fa-retweet"></i></a>
-                                            <a class="favorite" href="https://twitter.com/intent/favorite?tweet_id=537949735458713601"><i class="fa-star"></i></a>
-                                            <a class="timestamp" href="https://twitter.com/swiftideas/status/537949735458713601" target="_blank">3 hours ago</a>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="tweet-text">
-                                            <a href="http://www.twitter.com/aneeshjajodia" target="_blank">@aneeshjajodia</a>
-                                            unfortunately Envato doesn’t allow authors to run promotions - sorry!
-                                        </div>
-                                        <div class="twitter_intents">
-                                            <a class="reply" href="https://twitter.com/intent/tweet?in_reply_to=537949320025485312"><i class="fa-reply"></i></a>
-                                            <a class="retweet" href="https://twitter.com/intent/retweet?tweet_id=537949320025485312"><i class="fa-retweet"></i></a>
-                                            <a class="favorite" href="https://twitter.com/intent/favorite?tweet_id=537949320025485312"><i class="fa-star"></i></a>
-                                            <a class="timestamp" href="https://twitter.com/swiftideas/status/537949320025485312" target="_blank">3 hours ago</a>
-                                        </div>
-                                    </li>
-                                </ul>
-                                <div class="twitter-link">Follow <a href="http://www.twitter.com/swiftideas">@swiftideas</a>.</div>
-                            </section>
-                        </div>
-                            <div class="col-sm-3">
-                                <section id="recent-posts-4" class="widget widget_recent_entries clearfix">
-                                    <div class="widget-heading clearfix"><h6>RECENT POSTS</h6></div>
-                                    <ul>
-                                        <li><a href="http://dante.swiftideas.net/2013/11/09/standard-post/">Standard Post</a></li>
-                                        <li><a href="http://dante.swiftideas.net/2013/11/08/full-width-media-post/">Full Width Media Post</a></li>
-                                        <li><a href="http://dante.swiftideas.net/2013/11/07/quote-post/">Quote Post</a></li>
-                                        <li><a href="http://dante.swiftideas.net/2013/11/06/page-builder-post/">Page Builder Post</a></li>
-                                        <li><a href="http://dante.swiftideas.net/2013/11/05/text-only-post/">Text-only Post</a></li>
-                                    </ul>
-                                </section>
-                            </div>
-                            <div class="col-sm-3">
-                                <section id="sf_custom_portfolio_grid-3" class="widget widget_sf_custom_portfolio_grid clearfix">
-                                <div class="widget-heading clearfix"><h6>RECENT PROJECTS</h6></div>
-                                <ul class="portfolio-grid">
-                                    <li class="grid-item-0">
-                                        <a href="http://dante.swiftideas.net/portfolio/desert-mini-planet/" class="grid-image">
-                                            <img src="http://dante.swiftideas.net/wp-content/uploads/2013/11/Desert-miniplanet-port-85x85.jpg" width="85" height="85" alt="Desert Mini Planet">
-                                            <span class="tooltip" style="margin-left: -28px;">Desert Mini Planet<span class="arrow"></span></span>
-                                        </a>
-                                    </li>
-                                    <li class="grid-item-1">
-                                        <a href="http://dante.swiftideas.net/portfolio/saap/" class="grid-image">
-                                            <img src="http://dante.swiftideas.net/wp-content/uploads/2013/11/SAAP_thumb-85x85.jpg" width="85" height="85" alt="SAAP">
-                                            <span class="tooltip" style="margin-left: -12px;">SAAP<span class="arrow"></span></span>
-                                        </a>
-                                    </li>
-                                    <li class="grid-item-2">
-                                        <a href="http://dante.swiftideas.net/portfolio/robot-chicken/" class="grid-image">
-                                            <img src="http://dante.swiftideas.net/wp-content/uploads/2013/11/rcdrib3_thumb-85x85.png" width="85" height="85" alt="Robot Chicken">
-                                            <span class="tooltip" style="margin-left: -23px;">Robot Chicken<span class="arrow"></span></span>
-                                        </a>
-                                    </li>
-                                    <li class="grid-item-3">
-                                        <a href="http://dante.swiftideas.net/portfolio/tree/" class="grid-image">
-                                            <img src="http://dante.swiftideas.net/wp-content/uploads/2013/11/treemockup1800-85x85.jpg" width="85" height="85" alt="Tree">
-                                            <span class="tooltip" style="margin-left: -11px;">Tree<span class="arrow"></span></span>
-                                        </a>
-                                    </li>
-                                    <li class="grid-item-4">
-                                        <a href="http://dante.swiftideas.net/portfolio/space-invaders/" class="grid-image">
-                                            <img src="http://dante.swiftideas.net/wp-content/uploads/2013/11/inv_thumb-85x85.jpg" width="85" height="85" alt="Space Invaders">
-                                            <span class="tooltip" style="margin-left: -24px;">Space Invaders<span class="arrow"></span></span>
-                                        </a>
-                                    </li>
-                                    <li class="grid-item-5">
-                                        <a href="http://dante.swiftideas.net/portfolio/polar-ice/" class="grid-image">
-                                            <img src="http://dante.swiftideas.net/wp-content/uploads/2013/11/polar_ice-85x85.png" width="85" height="85" alt="Polar Ice">
-                                            <span class="tooltip" style="margin-left: -16px;">Polar Ice<span class="arrow"></span></span>
-                                        </a>
-                                    </li>
-                                </ul>
                             </section>
                         </div>
                     </div>
