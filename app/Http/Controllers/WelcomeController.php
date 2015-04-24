@@ -30,7 +30,27 @@ class WelcomeController extends Controller {
 	 */
 	public function index()
 	{
-		return view('dante.pages.comingsoon');
+		return view('dante.pages.main');
 	}
+
+    public function work()
+    {
+        return view('dante.pages.work');
+    }
+
+    public function data()
+    {
+        return view('dante.pages.data');
+    }
+
+    public function leads()
+    {
+        return view('dante.pages.lead');
+    }
+
+    public function terms()
+    {
+        return view('dante.pages.terms');
+    }
 
 }
